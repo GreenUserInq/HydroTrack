@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HydroTrack.Views.SplashView"
+             NavigationPage.HasNavigationBar="False"
+             Background="#7bc7e3">
+    <AbsoluteLayout x:Name="MainLayout">
+        
+        <Grid BackgroundColor="#49a3c2"
+              AbsoluteLayout.LayoutBounds="0.5,1,1,0.25"
+              AbsoluteLayout.LayoutFlags="All"/>
+
+        <Image Source="basegroundlb.png"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0.5,1,1,0.5"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <Image x:Name="TrainImage"
+               Source="traina.png"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0.5,1,0.3,0.5"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <Image Source="basegroundlf.png"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0.5,1,1,0.5"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <Image Source="loadim.png"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0.5,0.35,0.8,0.5"
+               AbsoluteLayout.LayoutFlags="All"/>
+    </AbsoluteLayout>
+</ContentPage>
