@@ -1213,3 +1213,5 @@ D:\HydroTrack\HydroTrack\obj\Release\net8.0-android\stamp\_ConvertResourcesCases
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-android\resizetizer\r\drawable\menubutton.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-android\HydroTrack.sourcelink.json

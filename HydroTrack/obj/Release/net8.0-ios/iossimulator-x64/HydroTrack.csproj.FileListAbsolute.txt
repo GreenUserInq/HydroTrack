@@ -574,7 +574,6 @@ D:\HydroTrack\HydroTrack\bin\Release\net8.0-ios\iossimulator-x64\libxamarin-dotn
 D:\HydroTrack\HydroTrack\bin\Release\net8.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
 D:\HydroTrack\HydroTrack\bin\Release\net8.0-ios\iossimulator-x64\libxamarin-dotnet.a
 D:\HydroTrack\HydroTrack\bin\Release\net8.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\build-signature\signature
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\mauiimage.inputs
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\mauifont.inputs
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\mauisplash.inputs
@@ -635,3 +634,5 @@ D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\refint\HydroTra
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\HydroTrack.pdb
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\HydroTrack.genruntimeconfig.cache
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\ref\HydroTrack.dll
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\menubutton.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\HydroTrack.sourcelink.json

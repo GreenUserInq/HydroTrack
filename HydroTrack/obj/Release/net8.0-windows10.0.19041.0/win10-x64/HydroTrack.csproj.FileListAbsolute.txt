@@ -368,3 +368,5 @@ D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\qualif
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menubutton.scale-100.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\HydroTrack.sourcelink.json

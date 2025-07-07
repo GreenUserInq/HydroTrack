@@ -232,6 +232,9 @@
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loadim.scale-100.png">
       <PackagePath>loadim.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menubutton.scale-100.png">
+      <PackagePath>menubutton.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rails.scale-100.png">
       <PackagePath>rails.scale-100.png</PackagePath>
     </AppxPackagedFile>

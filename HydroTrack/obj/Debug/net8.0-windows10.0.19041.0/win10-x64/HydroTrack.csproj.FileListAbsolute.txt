@@ -188,3 +188,5 @@ D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizeti
 D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\basegroundlb.scale-100.png
 D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\basegroundlf.scale-100.png
 D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\traina.scale-100.png
+D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\HydroTrack.sourcelink.json
+D:\HydroTrack\HydroTrack\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menubutton.scale-100.png

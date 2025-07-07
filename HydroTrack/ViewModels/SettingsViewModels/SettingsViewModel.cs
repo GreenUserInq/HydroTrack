@@ -1,48 +1,23 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using HydroTrack.Services;
+using HydroTrack.ViewModels.Base;
 using HydroTrack.Views;
 using System.Windows.Input;
 
 namespace HydroTrack.ViewModels
 {
-    public partial class SettingsViewModel : ObservableObject
+    public partial class SettingsViewModel : NavigableViewModel
     {
-        public ICommand PasswordChange {  get;}
-        public ICommand GoMain { get;}
-
-        [ObservableProperty]
-        private int width;
-
-        public SettingsViewModel()
+        public SettingsViewModel(INavigationService navigationService)
+            : base(navigationService)
         {
-            PasswordChange = new Command(ChangePass);
-            GoMain = new Command(showMain);
-            width = 0;
         }
 
-        private async void showMain()
+        [RelayCommand]
+        private void OpenChangePassword()
         {
-            try
-            {
-                await Shell.Current.GoToAsync("\\MainView");
-            }
-            catch (Exception e)
-            {
-
-                await Shell.Current.DisplayAlert("Ошибка", $"{e.ToString()}", "ОК");
-            }
-        }
-
-        private async void ChangePass()
-        {
-            try
-            {
-                await Shell.Current.GoToAsync("\\ChangePasswordView");
-            }
-            catch (Exception e)
-            {
-
-                await Shell.Current.DisplayAlert("Ошибка", $"{e.ToString()}", "ОК");
-            }
+            //NavigationService.NavigateTo(new ChangePasswordView());
         }
     }
 }

@@ -31,37 +31,10 @@ namespace HydroTrack.ViewModels
 
         public ChangePasswordViewModel()
         {
-            GoMain = new Command(showMain);
-            GoBack = new Command(showSettings);
             // Если файла с паролем ещё нет — создаём со стандартным значением
             if (!File.Exists(passwordFilePath))
             {
                 File.WriteAllText(passwordFilePath, "1234"); // Начальный пароль
-            }
-        }
-
-        private async void showSettings()
-        {
-            try
-            {
-                await Shell.Current.GoToAsync("//SettingsView");
-            }
-            catch (Exception e)
-            {
-
-                await Shell.Current.DisplayAlert("Ошибка", $"{e.ToString()}", "ОК");
-            }
-        }
-        private async void showMain()
-        {
-            try
-            {
-                await Shell.Current.GoToAsync("\\MainView");
-            }
-            catch (Exception e)
-            {
-
-                await Shell.Current.DisplayAlert("Ошибка", $"{e.ToString()}", "ОК");
             }
         }
 

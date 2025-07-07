@@ -1,5 +1,4 @@
 ﻿using HydroTrack.Views;
-using HydroTrack.Views.SettingsViews;
 
 namespace HydroTrack
 {
@@ -12,8 +11,6 @@ namespace HydroTrack
             Routing.RegisterRoute(nameof(SplashView), typeof(SplashView));
             Routing.RegisterRoute(nameof(LoginView), typeof(LoginView));
             Routing.RegisterRoute(nameof(MainView), typeof(MainView));
-            Routing.RegisterRoute(nameof(SettingsView), typeof(SettingsView));
-            Routing.RegisterRoute(nameof(ChangePasswordView), typeof(ChangePasswordView));
 
             GoToAsync("//SplashView");
         }

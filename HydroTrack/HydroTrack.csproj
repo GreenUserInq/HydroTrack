@@ -69,6 +69,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="ViewModels\Shared\**" />
+	  <Compile Remove="ViewModels\Shared\**" />
+	  <EmbeddedResource Remove="ViewModels\Shared\**" />
+	  <MauiCss Remove="ViewModels\Shared\**" />
+	  <MauiXaml Remove="ViewModels\Shared\**" />
+	  <None Remove="ViewModels\Shared\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
@@ -79,10 +88,13 @@
 	  <MauiXaml Update="MainPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\LoginView.xaml">
+	  <MauiXaml Update="Views\HomeViews\HomeView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\MainView.xaml">
+	  <MauiXaml Update="Views\NavigateViews\LoginView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NavigateViews\MainView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\SettingsViews\ChangePasswordView.xaml">
@@ -91,12 +103,20 @@
 	  <MauiXaml Update="Views\SettingsViews\SettingsView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\SplashView.xaml">
+	  <MauiXaml Update="Views\NavigateViews\SplashView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModels\Shared\" />
+	  <Compile Update="Views\HomeViews\HomeView.xaml.cs">
+	    <DependentUpon>HomeView.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="ViewModels\HomeViewModels\" />
+	  <Folder Include="ViewModels\CoreViewModels\" />
+	  <Folder Include="Views\CoreViews\" />
 	</ItemGroup>
 </Project>

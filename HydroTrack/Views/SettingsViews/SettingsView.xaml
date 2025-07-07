@@ -1,76 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HydroTrack.Views.SettingsView"
-             NavigationPage.HasNavigationBar="False"
-             Background="#7bc7e3">
-    <Grid  x:Name="MainGrid">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="15*"/>
-            <RowDefinition Height="85*"/>
-        </Grid.RowDefinitions>
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        
-        <HorizontalStackLayout Padding="20" 
-                               Spacing="15" 
-                               Grid.Row="0"
-                               Grid.Column="1">
-            <Button Text="Main"
-                    BackgroundColor="Transparent"
-                    TextColor="Black" 
-                    Style="{StaticResource FlatButtonStyle}"
-                    Command="{Binding GoMain}"/>
-
-            <Button Text="Menu"
-                    BackgroundColor="Transparent"
-                    TextColor="Black" 
-                    Style="{StaticResource FlatButtonStyle}"
-                    Clicked="OnMenuClicked"/>
-
-
-        </HorizontalStackLayout>
-        
-        <VerticalStackLayout Padding="20" Spacing="15" Grid.Row="1" Grid.Column="1">
-            <Label Text="Настройки"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   TextColor="Black"
-                   HorizontalOptions="Center"/>
-
-            <Frame CornerRadius="10"
-                   Padding="15"
-                   BackgroundColor="#04D2F4"
-                   HasShadow="True">
-                <VerticalStackLayout Spacing="10" VerticalOptions="Center">
-
-                    <Button Text="🔌 Подключение к серверу"
-                            HorizontalOptions="FillAndExpand"
-                            BackgroundColor="Transparent"
-                            TextColor="Black" 
-                            Style="{StaticResource FlatButtonStyle}"/>
-
-                    <BoxView HeightRequest="1" BackgroundColor="#cccccc"/>
-
-                    <Button Text="🔑 Сменить пароль"
-                            HorizontalOptions="FillAndExpand"
-                            BackgroundColor="Transparent"
-                            TextColor="Black"
-                            Style="{StaticResource FlatButtonStyle}"
-                            Command="{Binding PasswordChange}"/>
-
-                    <BoxView HeightRequest="1" BackgroundColor="#cccccc"/>
-
-                    <Button Text="👥 Управление группами"
-                    HorizontalOptions="FillAndExpand"
-                    BackgroundColor="Transparent"
-                    TextColor="Black"
-                    Style="{StaticResource FlatButtonStyle}"/>
-                </VerticalStackLayout>
-            </Frame>
-        </VerticalStackLayout>
-    </Grid>
-</ContentPage>
+             x:Class="HydroTrack.Views.SettingsViews.SettingsView">
+    <VerticalStackLayout>
+        <Label 
+            Text="SettingsView"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentView>

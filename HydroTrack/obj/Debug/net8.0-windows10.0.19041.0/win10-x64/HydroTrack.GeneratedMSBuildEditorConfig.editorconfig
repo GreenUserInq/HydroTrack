@@ -69,18 +69,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Views.MainView.
 build_metadata.AdditionalFiles.TargetPath = Views\MainView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MainView.xaml
 
-[D:/HydroTrack/HydroTrack/Views/SettingsViews/ChangePasswordView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Views.SettingsViews.ChangePasswordView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\SettingsViews\ChangePasswordView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\SettingsViews\ChangePasswordView.xaml
-
-[D:/HydroTrack/HydroTrack/Views/SettingsViews/SettingsView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Views.SettingsViews.SettingsView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\SettingsViews\SettingsView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\SettingsViews\SettingsView.xaml
-
 [D:/HydroTrack/HydroTrack/Views/SplashView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Views.SplashView.xaml
