@@ -1,5 +1,6 @@
 ﻿using HydroTrack.Services;
 using HydroTrack.ViewModels;
+using HydroTrack.ViewModels.HomeViewModels;
 using HydroTrack.Views;
 using HydroTrack.Views.HomeViews;
 using HydroTrack.Views.SettingsViews;
@@ -29,12 +30,14 @@ namespace HydroTrack
             builder.Services.AddTransient<LoginViewModel>();
 
             builder.Services.AddTransient<MainView>();
-            builder.Services.AddTransient<MainViewModel>();
+            builder.Services.AddSingleton<MainViewModel>();
+            builder.Services.AddSingleton<Func<MainViewModel>>(sp => () => sp.GetRequiredService<MainViewModel>());
 
             builder.Services.AddTransient<SettingsView>();
             builder.Services.AddTransient<SettingsViewModel>();
 
             builder.Services.AddTransient<HomeView>();
+            builder.Services.AddTransient<HomeViewModel>();
 
             builder.Services.AddTransient<ChangePasswordView>();
             builder.Services.AddTransient<ChangePasswordViewModel>();

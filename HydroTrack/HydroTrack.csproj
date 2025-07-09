@@ -91,10 +91,10 @@
 	  <MauiXaml Update="Views\HomeViews\HomeView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\NavigateViews\LoginView.xaml">
+	  <MauiXaml Update="Views\StartViews\LoginView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\NavigateViews\MainView.xaml">
+	  <MauiXaml Update="Views\StartViews\MainView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\SettingsViews\ChangePasswordView.xaml">
@@ -103,7 +103,7 @@
 	  <MauiXaml Update="Views\SettingsViews\SettingsView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\NavigateViews\SplashView.xaml">
+	  <MauiXaml Update="Views\StartViews\SplashView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
@@ -115,7 +115,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModels\HomeViewModels\" />
 	  <Folder Include="ViewModels\CoreViewModels\" />
 	  <Folder Include="Views\CoreViews\" />
 	</ItemGroup>

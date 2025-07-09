@@ -4,16 +4,16 @@ namespace HydroTrack.Services
 {
     public class NavigationService : INavigationService
     {
-        private readonly MainViewModel _mainViewModel;
+        private readonly Func<MainViewModel> _mainViewModelFactory;
 
-        public NavigationService(MainViewModel mainViewModel)
+        public NavigationService(Func<MainViewModel> mainViewModelFactory)
         {
-            _mainViewModel = mainViewModel;
+            _mainViewModelFactory = mainViewModelFactory;
         }
 
         public void NavigateTo(ContentView view)
         {
-            _mainViewModel.CurrentView = view;
+            _mainViewModelFactory().CurrentView = view;
         }
     }
 }

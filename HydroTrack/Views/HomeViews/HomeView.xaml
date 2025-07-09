@@ -4,13 +4,19 @@
              x:Class="HydroTrack.Views.HomeViews.HomeView"
              BackgroundColor="Transparent">
 
-    <VerticalStackLayout Padding="20">
-        <Label Text="Главная"
-               FontSize="24"
-               HorizontalOptions="Center" />
-        <Label Text="Добро пожаловать в HydroTrack!"
-               FontSize="18"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+        <Button Text="Настройки"
+                Style="{StaticResource FlatButtonStyle}"
+                FontSize="40"
+                Margin="0,0,0,10"
+                Background="Transparent"
+                Command="{Binding OpenSettingsCommand}"/>
+        
+        <Button Text="Системы"
+                Style="{StaticResource FlatButtonStyle}"
+                FontSize="40"
+                Margin="0,0,0,10"
+                Background="Transparent"/>
+        
     </VerticalStackLayout>
 </ContentView>

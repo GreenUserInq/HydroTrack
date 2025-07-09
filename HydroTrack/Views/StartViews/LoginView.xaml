@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HydroTrack.Views.LoginView" NavigationPage.HasNavigationBar="False"
+             Background="#7bc7e3">
+
+    <AbsoluteLayout>
+
+        <Grid BackgroundColor="#49a3c2"
+              AbsoluteLayout.LayoutBounds="0.5,1,1,0.25"
+              AbsoluteLayout.LayoutFlags="All"/>
+
+        <Image Source="basegroundlb.png"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0.5,1,1,0.5"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+
+        <Image Source="basegroundlf.png"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0.5,1,1,0.5"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <VerticalStackLayout AbsoluteLayout.LayoutBounds="0.5,0.5,1,1" 
+                             AbsoluteLayout.LayoutFlags="All"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     Spacing="15"
+                     Padding="20"
+                     BackgroundColor="Transparent">
+
+            <Label Text="Введите пароль:"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   FontAttributes="Bold"/>
+
+            <Entry IsPassword="True" 
+                   Placeholder="Пароль" 
+                   Text="{Binding Password}" 
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"
+                   BackgroundColor="Transparent"
+                   Margin="0,0,0,5"
+                   FontSize="16"/>
+
+            <Button Text="Войти" 
+                    Command="{Binding LoginCommand}" 
+                    HorizontalOptions="Center"
+                    Style="{StaticResource FlatButtonStyle}"
+                    Opacity="0.8" WidthRequest="200"/>
+
+        </VerticalStackLayout>
+    </AbsoluteLayout>
+</ContentPage>
