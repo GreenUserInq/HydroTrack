@@ -16,7 +16,6 @@ public partial class SplashView : ContentPage
         // Подождать немного
         var rnd = new Random();
         await Task.Delay(rnd.Next(2000, 4000));
-
         // ? Переход через Shell
         await Shell.Current.GoToAsync($"//{nameof(LoginView)}");
     }
@@ -29,13 +28,21 @@ public partial class SplashView : ContentPage
             double trainWidth = TrainImage.Width;
             double targetX = -trainWidth - 300;
 
+            string[] trainImages = { "traina.png", "trainc.png", "traind.png", "traine.png" };
+            Random random = new Random();
+
             TrainImage.TranslationX = screenWidth;
 
             while (true)
             {
+                string selectedImage = trainImages[random.Next(trainImages.Length)];
+                TrainImage.Source = ImageSource.FromFile(selectedImage); 
+
                 await TrainImage.TranslateTo(targetX, 0, 2000, Easing.Linear);
+
                 TrainImage.TranslationX = screenWidth;
             }
         };
     }
+
 }

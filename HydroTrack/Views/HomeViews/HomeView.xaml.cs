@@ -8,5 +8,11 @@ public partial class HomeView : ContentView
 	{
 		InitializeComponent();
 		BindingContext = vm;
-	}
+
+        SettingsButton.Pressed += async (s, e) =>
+        await SettingsButton.ScaleTo(0.9, 100);
+
+        SettingsButton.Released += async (s, e) =>
+        await SettingsButton.ScaleTo(1, 100);
+    }
 }

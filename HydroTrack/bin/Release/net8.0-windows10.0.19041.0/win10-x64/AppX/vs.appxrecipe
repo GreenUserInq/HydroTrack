@@ -30,21 +30,21 @@
     <AppXManifest Include="D:\HydroTrack\HydroTrack\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-07-09T12:59:52.333</Modified>
+      <Modified>2025-07-10T04:20:16.887</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\bin\Release\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-07-09T09:35:51.509</Modified>
+      <Modified>2025-07-10T04:19:45.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\bin\Release\net8.0-windows10.0.19041.0\win10-x64\HydroTrack.runtimeconfig.json">
       <PackagePath>HydroTrack.runtimeconfig.json</PackagePath>
-      <Modified>2025-07-09T07:37:37.550</Modified>
+      <Modified>2025-07-09T15:32:20.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HydroTrack.exe</PackagePath>
-      <Modified>2025-07-09T12:59:51.107</Modified>
+      <Modified>2025-07-10T04:20:15.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -80,255 +80,271 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-07-09T07:30:40.784</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.784</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.785</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.785</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.786</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.789</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.805</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.805</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.805</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.805</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.805</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.805</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.805</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.820</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baseground.scale-100.png">
       <PackagePath>baseground.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\basegroundl.scale-100.png">
       <PackagePath>basegroundl.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\basegroundlb.scale-100.png">
       <PackagePath>basegroundlb.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\basegroundlf.scale-100.png">
       <PackagePath>basegroundlf.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\border.scale-100.png">
       <PackagePath>border.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.836</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.851</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.851</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loadim.scale-100.png">
       <PackagePath>loadim.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.851</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menubutton.scale-100.png">
       <PackagePath>menubutton.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.851</Modified>
+      <Modified>2025-07-10T04:18:49.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rails.scale-100.png">
       <PackagePath>rails.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.851</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\round.scale-100.png">
       <PackagePath>round.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.851</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settingsicon.scale-100.png">
+      <PackagePath>settingsicon.scale-100.png</PackagePath>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\train.scale-100.png">
       <PackagePath>train.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.851</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\traina.scale-100.png">
       <PackagePath>traina.scale-100.png</PackagePath>
-      <Modified>2025-07-09T07:30:40.867</Modified>
+      <Modified>2025-07-10T04:18:49.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trainc.scale-100.png">
+      <PackagePath>trainc.scale-100.png</PackagePath>
+      <Modified>2025-07-10T04:18:49.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\traind.scale-100.png">
+      <PackagePath>traind.scale-100.png</PackagePath>
+      <Modified>2025-07-10T04:18:49.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\traine.scale-100.png">
+      <PackagePath>traine.scale-100.png</PackagePath>
+      <Modified>2025-07-10T04:18:49.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\bin\Release\net8.0-windows10.0.19041.0\win10-x64\HydroTrack.deps.json">
       <PackagePath>HydroTrack.deps.json</PackagePath>
-      <Modified>2025-07-09T09:35:51.270</Modified>
+      <Modified>2025-07-09T15:32:20.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Дмитрий\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -620,7 +636,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\HydroTrack.dll">
       <PackagePath>HydroTrack.dll</PackagePath>
-      <Modified>2025-07-09T12:59:52.229</Modified>
+      <Modified>2025-07-10T04:20:16.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Дмитрий\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

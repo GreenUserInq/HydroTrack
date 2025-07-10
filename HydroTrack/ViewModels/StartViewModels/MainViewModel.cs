@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using HydroTrack.Views.HomeViews;
 using HydroTrack.Views.SettingsViews;
+using System.Diagnostics;
 using System.Windows.Input;
 
 namespace HydroTrack.ViewModels;
@@ -37,7 +38,7 @@ public partial class MainViewModel : ObservableObject
         }
         catch (Exception ex)
         {
-            //Debug.WriteLine($"Ошибка при входе: {ex.Message}");
+            Debug.WriteLine($"Ошибка при входе: {ex.Message}");
             Shell.Current.DisplayAlert("Ошибка", ex.Message, "ОК");
         }
         

@@ -4,19 +4,42 @@
              x:Class="HydroTrack.Views.HomeViews.HomeView"
              BackgroundColor="Transparent">
 
-    <VerticalStackLayout VerticalOptions="CenterAndExpand">
-        <Button Text="Настройки"
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="1" Grid.Column="0" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+
+            <Frame Grid.Column="1"
+                   Padding="0"
+                   CornerRadius="20"
+                   HasShadow="False"
+                   BackgroundColor="#5EEAD4">
+
+                <ImageButton x:Name="SettingsButton"
+                         Source="settingsicon.png"
+                         BackgroundColor="Transparent"
+                         Command="{Binding OpenSettingsCommand}" />
+            </Frame>
+        </Grid>
+
+        <Button Text="Системы" Grid.Row="0" Grid.Column="0" 
                 Style="{StaticResource FlatButtonStyle}"
                 FontSize="40"
-                Margin="0,0,0,10"
-                Background="Transparent"
-                Command="{Binding OpenSettingsCommand}"/>
+                Margin="10"
+                CornerRadius="20"
+                Background="#BDEF0F"/>
         
-        <Button Text="Системы"
-                Style="{StaticResource FlatButtonStyle}"
-                FontSize="40"
-                Margin="0,0,0,10"
-                Background="Transparent"/>
-        
-    </VerticalStackLayout>
+    </Grid>
 </ContentView>

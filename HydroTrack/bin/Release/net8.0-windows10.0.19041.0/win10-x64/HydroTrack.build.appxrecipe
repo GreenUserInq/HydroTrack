@@ -238,11 +238,23 @@
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\round.scale-100.png">
       <PackagePath>round.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settingsicon.scale-100.png">
+      <PackagePath>settingsicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\train.scale-100.png">
       <PackagePath>train.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\traina.scale-100.png">
       <PackagePath>traina.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trainc.scale-100.png">
+      <PackagePath>trainc.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\traind.scale-100.png">
+      <PackagePath>traind.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\traine.scale-100.png">
+      <PackagePath>traine.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\bin\Release\net8.0-windows10.0.19041.0\win10-x64\HydroTrack.deps.json">
       <PackagePath>HydroTrack.deps.json</PackagePath>
