@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\HydroTrack\HydroTrack\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-07-10T04:20:16.887</Modified>
+      <Modified>2025-07-10T04:44:14.700</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,7 +44,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HydroTrack.exe</PackagePath>
-      <Modified>2025-07-10T04:20:15.699</Modified>
+      <Modified>2025-07-10T04:44:12.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -636,7 +636,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\HydroTrack.dll">
       <PackagePath>HydroTrack.dll</PackagePath>
-      <Modified>2025-07-10T04:20:16.793</Modified>
+      <Modified>2025-07-10T04:44:14.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Дмитрий\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

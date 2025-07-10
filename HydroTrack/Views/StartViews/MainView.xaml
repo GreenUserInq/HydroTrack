@@ -62,19 +62,22 @@
             <VerticalStackLayout HorizontalOptions="StartAndExpand">
                 <Label Text="Меню" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
 
-                <RadioButton Content="Главная" Value="Home" GroupName="Menu"
+                <RadioButton x:Name="HomeRadioButton" 
+                             Content="Главная" Value="Home" GroupName="Menu"
                              BackgroundColor="Transparent"
                              HorizontalOptions="StartAndExpand"
                              ControlTemplate="{StaticResource SidebarRadioTemplate}"
                              CheckedChanged="OnMenuItemSelected" />
 
-                <RadioButton Content="Настройки" Value="Settings" GroupName="Menu"
+                <RadioButton x:Name="SettingsRadioButton" 
+                             Content="Настройки" Value="Settings" GroupName="Menu"
                              BackgroundColor="Transparent"
                              HorizontalOptions="StartAndExpand"
                              ControlTemplate="{StaticResource SidebarRadioTemplate}"
                              CheckedChanged="OnMenuItemSelected" />
 
-                <RadioButton Content="Сменить пароль" Value="Pass" GroupName="Menu"
+                <RadioButton x:Name="PassRadioButton" 
+                             Content="Сменить пароль" Value="Pass" GroupName="Menu"
                              BackgroundColor="Transparent"
                              HorizontalOptions="StartAndExpand"
                              ControlTemplate="{StaticResource SidebarRadioTemplate}"
