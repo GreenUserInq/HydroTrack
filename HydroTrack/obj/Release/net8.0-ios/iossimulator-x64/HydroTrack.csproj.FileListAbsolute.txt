@@ -636,3 +636,7 @@ D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\HydroTrack.genr
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\ref\HydroTrack.dll
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\menubutton.png
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\HydroTrack.sourcelink.json
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\trainc.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\settingsicon.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\traind.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\traine.png

@@ -9,6 +9,7 @@ public partial class MainView : ContentPage
 {
     private bool _menuVisible = false;
     private const uint AnimationDuration = 200;
+    private bool _menuFlag;
 
     public MainView(MainViewModel mainVM)
     {
@@ -31,6 +32,7 @@ public partial class MainView : ContentPage
         }
 
         _menuVisible = !_menuVisible;
+        _menuFlag = true;
     }
 
     private async void OnMenuItemSelected(object sender, CheckedChangedEventArgs e)
@@ -80,8 +82,12 @@ public partial class MainView : ContentPage
 
     private void ResetRadioButtons()
     {
-        HomeRadioButton.IsChecked = false;
-        SettingsRadioButton.IsChecked = false;
-        PassRadioButton.IsChecked = false;
+        if (!_menuFlag)
+        {
+            HomeRadioButton.IsChecked = false;
+            SettingsRadioButton.IsChecked = false;
+            PassRadioButton.IsChecked = false;
+        }
+        _menuFlag = false;
     }
 }

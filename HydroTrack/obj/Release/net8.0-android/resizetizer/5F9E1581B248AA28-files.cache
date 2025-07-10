@@ -7,8 +7,12 @@ obj\Release\net8.0-android\resizetizer\r\drawable\loadim.png
 obj\Release\net8.0-android\resizetizer\r\drawable\menubutton.png
 obj\Release\net8.0-android\resizetizer\r\drawable\rails.png
 obj\Release\net8.0-android\resizetizer\r\drawable\round.png
+obj\Release\net8.0-android\resizetizer\r\drawable\settingsicon.png
 obj\Release\net8.0-android\resizetizer\r\drawable\train.png
 obj\Release\net8.0-android\resizetizer\r\drawable\traina.png
+obj\Release\net8.0-android\resizetizer\r\drawable\trainc.png
+obj\Release\net8.0-android\resizetizer\r\drawable\traind.png
+obj\Release\net8.0-android\resizetizer\r\drawable\traine.png
 obj\Release\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Release\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Release\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

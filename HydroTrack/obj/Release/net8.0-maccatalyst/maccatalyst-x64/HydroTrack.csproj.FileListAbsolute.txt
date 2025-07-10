@@ -576,3 +576,7 @@ D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-x64\resizeti
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\traina.png
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\menubutton.png
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-x64\HydroTrack.sourcelink.json
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\trainc.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\traind.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\settingsicon.png
+D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\traine.png

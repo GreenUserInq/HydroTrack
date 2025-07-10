@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HydroTrack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2e600b7763976bde63a974fd24ae23ea44c42c6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9ac01ddb921bcf4e2fc1bf617e347af1d0f31d6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("HydroTrack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HydroTrack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
