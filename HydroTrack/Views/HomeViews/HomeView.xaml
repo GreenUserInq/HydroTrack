@@ -36,11 +36,12 @@
             </Grid>
 
             <Button Text="Системы" Grid.Row="0"
-                Style="{StaticResource FlatButtonStyle}"
-                FontSize="40"
-                Margin="10"
-                CornerRadius="20"
-                Background="#BDEF0F"/>
+                    Style="{StaticResource FlatButtonStyle}"
+                    Command="{Binding OpenSystemsCommand}"
+                    FontSize="40"
+                    Margin="10"
+                    CornerRadius="20"
+                    Background="#BDEF0F"/>
         </Grid>
 
         <Grid Grid.Column="1" x:Name="TimePanel">

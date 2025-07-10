@@ -1,7 +1,11 @@
-﻿using HydroTrack.Services;
+﻿using CommunityToolkit.Maui;
+using HydroTrack.Services;
 using HydroTrack.ViewModels;
+using HydroTrack.ViewModels.CoreViewModels;
 using HydroTrack.ViewModels.HomeViewModels;
+using HydroTrack.ViewModels.SettingsViewModels;
 using HydroTrack.Views;
+using HydroTrack.Views.CoreViews;
 using HydroTrack.Views.HomeViews;
 using HydroTrack.Views.SettingsViews;
 using Microsoft.Extensions.Logging;
@@ -42,7 +46,14 @@ namespace HydroTrack
             builder.Services.AddTransient<ChangePasswordView>();
             builder.Services.AddTransient<ChangePasswordViewModel>();
 
+            builder.Services.AddTransient<SystemsView>();
+            builder.Services.AddTransient<SystemsViewModel>();
+
+            builder.Services.AddTransient<ConnectionSettingsView>();
+            builder.Services.AddTransient<ConnectionSetingsViewModel>();
+
             builder.Services.AddSingleton<INavigationService, NavigationService>();
+            builder.UseMauiCommunityToolkit();
 
             return builder.Build();
         }

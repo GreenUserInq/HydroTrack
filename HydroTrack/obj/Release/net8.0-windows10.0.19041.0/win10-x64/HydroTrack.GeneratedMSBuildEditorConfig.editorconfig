@@ -57,6 +57,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Resources.Style
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/HydroTrack/HydroTrack/Views/CoreViews/SystemsView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Views.CoreViews.SystemsView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoreViews\SystemsView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoreViews\SystemsView.xaml
+
 [D:/HydroTrack/HydroTrack/Views/HomeViews/HomeView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Views.HomeViews.HomeView.xaml
@@ -68,6 +74,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Views.SettingsViews.ChangePasswordView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SettingsViews\ChangePasswordView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SettingsViews\ChangePasswordView.xaml
+
+[D:/HydroTrack/HydroTrack/Views/SettingsViews/ConnectionSettingsView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydroTrack.Views.SettingsViews.ConnectionSettingsView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SettingsViews\ConnectionSettingsView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SettingsViews\ConnectionSettingsView.xaml
 
 [D:/HydroTrack/HydroTrack/Views/SettingsViews/SettingsView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

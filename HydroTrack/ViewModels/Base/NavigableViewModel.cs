@@ -7,7 +7,7 @@ namespace HydroTrack.ViewModels.Base
     {
         protected readonly INavigationService NavigationService;
 
-        protected NavigableViewModel(INavigationService navigationService)
+        protected NavigableViewModel(INavigationService navigationService )
         {
             NavigationService = navigationService;
         }

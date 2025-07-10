@@ -2,8 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using HydroTrack.Services;
 using HydroTrack.ViewModels.Base;
-using HydroTrack.Views;
-using System.Windows.Input;
+using System.Threading.Tasks;
 
 namespace HydroTrack.ViewModels
 {
@@ -17,7 +16,13 @@ namespace HydroTrack.ViewModels
         [RelayCommand]
         private void OpenChangePassword()
         {
-            //NavigationService.NavigateTo(new ChangePasswordView());
+            NavigationService.NavigateToChangePassword();
+        }
+
+        [RelayCommand]
+        private void OpenConnectionSettings()
+        {
+            NavigationService.NavigateToConnectionSettings();
         }
     }
 }

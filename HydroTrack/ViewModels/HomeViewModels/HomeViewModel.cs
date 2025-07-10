@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using HydroTrack.Services;
 using HydroTrack.Views.SettingsViews;
 using System;
@@ -12,27 +13,22 @@ namespace HydroTrack.ViewModels.HomeViewModels
 {
     public partial class HomeViewModel : ObservableObject
     {
-        public ICommand OpenSettingsCommand { get; }
+        private readonly INavigationService _navigationService;
 
-        private INavigationService _navigationService;
-        private IServiceProvider _serviceProvider;
-
-        public HomeViewModel(INavigationService navigationService, IServiceProvider serviceProvider)
+        public HomeViewModel(INavigationService navigationService)
         {
-            _serviceProvider = serviceProvider;
             _navigationService = navigationService;
-
-           OpenSettingsCommand = new Command(OpenSettings);
         }
 
+        [RelayCommand]
         private void OpenSettings()
         {
-            var settingsView = _serviceProvider.GetService<SettingsView>();
-
-            if (settingsView != null)
-            {
-                _navigationService.NavigateTo(settingsView);
-            }
+            _navigationService.NavigateToSettings();
+        }
+        [RelayCommand]
+        private void OpenSystems()
+        {
+            _navigationService.NavigateToSystems();
         }
     }
 }

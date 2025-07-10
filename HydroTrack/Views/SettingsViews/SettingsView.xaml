@@ -1,11 +1,72 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HydroTrack.Views.SettingsViews.SettingsView">
-    <VerticalStackLayout>
-        <Label 
-            Text="SettingsView"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             x:Class="HydroTrack.Views.SettingsViews.SettingsView"
+             x:Name="RootView">
+
+    <VerticalStackLayout Padding="10">
+
+        <AbsoluteLayout x:Name="MainLayout"
+                        BackgroundColor="Transparent"
+                        HeightRequest="100"
+                        HorizontalOptions="Fill">
+
+            <!-- Картинка смещена вправо (X=0.8) -->
+            <Image Source="settingsicon.png"
+                   Aspect="AspectFit"
+                   AbsoluteLayout.LayoutBounds="0.8,0.5,0.5,1"
+                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional" />
+
+            <!-- Надпись поверх картинки -->
+            <Label Text="Смена пароля"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   AbsoluteLayout.LayoutBounds="0.5,0.5,0.5,1"
+                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+
+            <!-- Кнопка -->
+            <Button 
+                Style="{StaticResource FlatButtonStyle}"
+                BackgroundColor="Transparent"
+                TextColor="Black"
+                Opacity="0.2"
+                AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
+                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
+                Command="{Binding OpenChangePasswordCommand}" />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout x:Name="Conncetion"
+                        BackgroundColor="Transparent"
+                        HeightRequest="100"
+                        HorizontalOptions="Fill">
+
+            <!-- Картинка смещена вправо (X=0.8) -->
+            <Image Source="settingsicon.png"
+                   Aspect="AspectFit"
+                   AbsoluteLayout.LayoutBounds="0.8,0.5,0.5,1"
+                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional" />
+
+            <!-- Надпись поверх картинки -->
+            <Label Text="Параметры подключения"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   AbsoluteLayout.LayoutBounds="0.5,0.5,0.5,1"
+                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+
+            <!-- Кнопка -->
+            <Button 
+                Style="{StaticResource FlatButtonStyle}"
+                BackgroundColor="Transparent"
+                TextColor="Black"
+                Opacity="0.2"
+                AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
+                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
+                Command="{Binding OpenConnectionSettingsCommand}" />
+        </AbsoluteLayout>
+        
     </VerticalStackLayout>
+
 </ContentView>
