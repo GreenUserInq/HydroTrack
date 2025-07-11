@@ -580,3 +580,5 @@ D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\resize
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\resizetizer\r\Resources\settingsicon.png
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\resizetizer\r\Resources\trainc.png
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\resizetizer\r\Resources\traind.png
+D:\HydroTrack\HydroTrack\bin\Release\net8.0-maccatalyst\maccatalyst-arm64\CommunityToolkit.Maui.dll
+D:\HydroTrack\HydroTrack\bin\Release\net8.0-maccatalyst\maccatalyst-arm64\CommunityToolkit.Maui.Core.dll

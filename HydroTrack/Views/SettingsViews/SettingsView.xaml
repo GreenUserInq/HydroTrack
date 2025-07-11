@@ -3,70 +3,58 @@
              x:Class="HydroTrack.Views.SettingsViews.SettingsView"
              x:Name="RootView">
 
-    <VerticalStackLayout Padding="10">
+    <VerticalStackLayout Padding="10" Spacing="20">
 
-        <AbsoluteLayout x:Name="MainLayout"
-                        BackgroundColor="Transparent"
-                        HeightRequest="100"
-                        HorizontalOptions="Fill">
+        <!-- Секция: Смена пароля -->
+        <Grid HeightRequest="100" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
 
-            <!-- Картинка смещена вправо (X=0.8) -->
-            <Image Source="settingsicon.png"
-                   Aspect="AspectFit"
-                   AbsoluteLayout.LayoutBounds="0.8,0.5,0.5,1"
-                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional" />
-
-            <!-- Надпись поверх картинки -->
-            <Label Text="Смена пароля"
-                   FontSize="18"
-                   FontAttributes="Bold"
-                   AbsoluteLayout.LayoutBounds="0.5,0.5,0.5,1"
-                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
-                   HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center" />
-
-            <!-- Кнопка -->
+            <!-- Кнопка на весь контейнер -->
             <Button 
                 Style="{StaticResource FlatButtonStyle}"
                 BackgroundColor="Transparent"
-                TextColor="Black"
                 Opacity="0.2"
-                AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
-                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
                 Command="{Binding OpenChangePasswordCommand}" />
-        </AbsoluteLayout>
 
-        <AbsoluteLayout x:Name="Conncetion"
-                        BackgroundColor="Transparent"
-                        HeightRequest="100"
-                        HorizontalOptions="Fill">
+            <!-- Иконка + надпись поверх кнопки -->
+            <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center"
+                                   InputTransparent="True">
+                <Image Source="settingsicon.png"
+                       Aspect="AspectFit"
+                       WidthRequest="40"
+                       HeightRequest="40" />
+                <Label Text="Смена пароля"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       VerticalTextAlignment="Center" />
+            </HorizontalStackLayout>
 
-            <!-- Картинка смещена вправо (X=0.8) -->
-            <Image Source="settingsicon.png"
-                   Aspect="AspectFit"
-                   AbsoluteLayout.LayoutBounds="0.8,0.5,0.5,1"
-                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional" />
+        </Grid>
 
-            <!-- Надпись поверх картинки -->
-            <Label Text="Параметры подключения"
-                   FontSize="18"
-                   FontAttributes="Bold"
-                   AbsoluteLayout.LayoutBounds="0.5,0.5,0.5,1"
-                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
-                   HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center" />
+        <!-- Секция: Параметры подключения -->
+        <Grid HeightRequest="100" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
 
-            <!-- Кнопка -->
+            <!-- Кнопка на весь контейнер -->
             <Button 
                 Style="{StaticResource FlatButtonStyle}"
                 BackgroundColor="Transparent"
-                TextColor="Black"
                 Opacity="0.2"
-                AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
-                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
                 Command="{Binding OpenConnectionSettingsCommand}" />
-        </AbsoluteLayout>
-        
+
+            <!-- Иконка + надпись поверх кнопки -->
+            <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center"
+                                   InputTransparent="True">
+                <Image Source="settingsicon.png"
+                       Aspect="AspectFit"
+                       WidthRequest="40"
+                       HeightRequest="40" />
+                <Label Text="Параметры подключения"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       VerticalTextAlignment="Center" />
+            </HorizontalStackLayout>
+
+        </Grid>
+
     </VerticalStackLayout>
 
 </ContentView>

@@ -640,3 +640,5 @@ D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\R
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\settingsicon.png
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\traind.png
 D:\HydroTrack\HydroTrack\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\traine.png
+D:\HydroTrack\HydroTrack\bin\Release\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
+D:\HydroTrack\HydroTrack\bin\Release\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll

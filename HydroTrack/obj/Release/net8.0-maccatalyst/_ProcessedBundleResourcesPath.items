@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
-    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
-    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
-    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\baseground.png" />
-    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\border.png" />
-    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\loadim.png" />
-    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\round.png" />
-    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\traina.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\basegroundl.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\basegroundlb.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\basegroundlf.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\menubutton.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\rails.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\settingsicon.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\train.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\trainc.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\traind.png" />
+    <BundleResource Include="D:\HydroTrack\HydroTrack\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\traine.png" />
   </ItemGroup>
 </Project>
