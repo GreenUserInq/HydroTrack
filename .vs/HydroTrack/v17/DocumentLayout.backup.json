@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\HydroTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\settingsviews\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\settingsviews\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\startviews\\splashview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\startviews\\splashview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,116 +11,16 @@
       "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\startviews\\splashview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\services\\mqttconfigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\services\\mqttconfigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\services\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\services\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\models\\mqttsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\models\\mqttsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\services\\telemetryio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\services\\telemetryio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\models\\telemetrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\models\\telemetrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\viewmodels\\settingsviewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\viewmodels\\settingsviewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\settingsviews\\connectionsettingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\settingsviews\\connectionsettingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\viewmodels\\settingsviewmodels\\connectionsetingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\viewmodels\\settingsviewmodels\\connectionsetingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\settingsviews\\connectionsettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\settingsviews\\connectionsettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\viewmodels\\settingsviewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\viewmodels\\settingsviewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\homeviews\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\homeviews\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\viewmodels\\homeviewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\viewmodels\\homeviewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\coreviews\\systemsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\coreviews\\systemsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\viewmodels\\coreviewmodels\\systemsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\viewmodels\\coreviewmodels\\systemsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\settingsviews\\changepasswordview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\settingsviews\\changepasswordview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\coreviews\\systemsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\coreviews\\systemsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\settingsviews\\settingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\settingsviews\\settingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\hydrotrack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\hydrotrack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\startviews\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\startviews\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\startviews\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\startviews\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\startviews\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\startviews\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\startviews\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\startviews\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\viewmodels\\startviewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\viewmodels\\startviewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\viewmodels\\base\\navigableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\viewmodels\\base\\navigableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\settingsviews\\changepasswordview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\settingsviews\\changepasswordview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|d:\\hydrotrack\\hydrotrack\\views\\startviews\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE83FF48-35A1-4727-A5ED-12217AA4BE79}|HydroTrack\\HydroTrack.csproj|solutionrelative:hydrotrack\\views\\startviews\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,385 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 277,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SplashView.xaml.cs",
               "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\SplashView.xaml.cs",
               "RelativeDocumentMoniker": "HydroTrack\\Views\\StartViews\\SplashView.xaml.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\SplashView.xaml.cs",
-              "RelativeToolTip": "HydroTrack\\Views\\StartViews\\SplashView.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBEAAAAvAAAAAAAAAA==",
+              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\SplashView.xaml.cs*",
+              "RelativeToolTip": "HydroTrack\\Views\\StartViews\\SplashView.xaml.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:27:48.614Z",
+              "WhenOpened": "2025-07-13T16:30:06.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MqttConfigManager.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Services\\MqttConfigManager.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Services\\MqttConfigManager.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Services\\MqttConfigManager.cs",
-              "RelativeToolTip": "HydroTrack\\Services\\MqttConfigManager.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwCUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T16:02:52.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MqttSettings.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Models\\MqttSettings.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Models\\MqttSettings.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Models\\MqttSettings.cs",
-              "RelativeToolTip": "HydroTrack\\Models\\MqttSettings.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA0wBUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T15:59:35.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TelemetryIO.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Services\\TelemetryIO.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Services\\TelemetryIO.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Services\\TelemetryIO.cs",
-              "RelativeToolTip": "HydroTrack\\Services\\TelemetryIO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T15:54:28.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TelemetryData.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Models\\TelemetryData.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Models\\TelemetryData.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Models\\TelemetryData.cs",
-              "RelativeToolTip": "HydroTrack\\Models\\TelemetryData.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T15:54:00.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ConnectionSettingsView.xaml.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\ConnectionSettingsView.xaml.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\SettingsViews\\ConnectionSettingsView.xaml.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\ConnectionSettingsView.xaml.cs",
-              "RelativeToolTip": "HydroTrack\\Views\\SettingsViews\\ConnectionSettingsView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:28:24.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ConnectionSetingsViewModel.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\ViewModels\\SettingsViewModels\\ConnectionSetingsViewModel.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\ViewModels\\SettingsViewModels\\ConnectionSetingsViewModel.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\ViewModels\\SettingsViewModels\\ConnectionSetingsViewModel.cs",
-              "RelativeToolTip": "HydroTrack\\ViewModels\\SettingsViewModels\\ConnectionSetingsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:27:01.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ConnectionSettingsView.xaml",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\ConnectionSettingsView.xaml",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\SettingsViews\\ConnectionSettingsView.xaml",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\ConnectionSettingsView.xaml",
-              "RelativeToolTip": "HydroTrack\\Views\\SettingsViews\\ConnectionSettingsView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T12:26:33.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeView.xaml",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\HomeViews\\HomeView.xaml",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\HomeViews\\HomeView.xaml",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\HomeViews\\HomeView.xaml",
-              "RelativeToolTip": "HydroTrack\\Views\\HomeViews\\HomeView.xaml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T12:21:52.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SystemsView.xaml.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\CoreViews\\SystemsView.xaml.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\CoreViews\\SystemsView.xaml.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\CoreViews\\SystemsView.xaml.cs",
-              "RelativeToolTip": "HydroTrack\\Views\\CoreViews\\SystemsView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:16:02.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SystemsViewModel.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\ViewModels\\CoreViewModels\\SystemsViewModel.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\ViewModels\\CoreViewModels\\SystemsViewModel.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\ViewModels\\CoreViewModels\\SystemsViewModel.cs",
-              "RelativeToolTip": "HydroTrack\\ViewModels\\CoreViewModels\\SystemsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:13:50.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SystemsView.xaml",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\CoreViews\\SystemsView.xaml",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\CoreViews\\SystemsView.xaml",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\CoreViews\\SystemsView.xaml",
-              "RelativeToolTip": "HydroTrack\\Views\\CoreViews\\SystemsView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T12:12:23.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SplashView.xaml",
               "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\SplashView.xaml",
               "RelativeDocumentMoniker": "HydroTrack\\Views\\StartViews\\SplashView.xaml",
               "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\SplashView.xaml",
               "RelativeToolTip": "HydroTrack\\Views\\StartViews\\SplashView.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T08:01:44.884Z",
+              "WhenOpened": "2025-07-13T16:29:58.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HydroTrack.csproj",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\HydroTrack.csproj",
-              "RelativeDocumentMoniker": "HydroTrack\\HydroTrack.csproj",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\HydroTrack.csproj",
-              "RelativeToolTip": "HydroTrack\\HydroTrack.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-10T07:44:55.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\MauiProgram.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\MauiProgram.cs",
-              "RelativeToolTip": "HydroTrack\\MauiProgram.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\ViewModels\\StartViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "HydroTrack\\ViewModels\\StartViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\HydroTrack\\HydroTrack\\ViewModels\\StartViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "HydroTrack\\ViewModels\\StartViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA3wCQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:43:18.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\MainPage.xaml",
-              "RelativeDocumentMoniker": "HydroTrack\\MainPage.xaml",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\MainPage.xaml",
-              "RelativeToolTip": "HydroTrack\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T07:43:17.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\StartViews\\LoginView.xaml.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\LoginView.xaml.cs",
-              "RelativeToolTip": "HydroTrack\\Views\\StartViews\\LoginView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:36:33.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MainView.xaml.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\MainView.xaml.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\StartViews\\MainView.xaml.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\MainView.xaml.cs",
-              "RelativeToolTip": "HydroTrack\\Views\\StartViews\\MainView.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:36:20.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "HydroTrack\\Resources\\Styles\\Styles.xaml",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "HydroTrack\\Resources\\Styles\\Styles.xaml",
-              "ViewState": "AgIAABUAAAAAAAAAAIBJwCkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T07:32:58.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SettingsView.xaml.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\SettingsView.xaml.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\SettingsViews\\SettingsView.xaml.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\SettingsView.xaml.cs",
-              "RelativeToolTip": "HydroTrack\\Views\\SettingsViews\\SettingsView.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:27:19.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SettingsView.xaml",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\SettingsView.xaml",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\SettingsViews\\SettingsView.xaml",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\SettingsView.xaml*",
-              "RelativeToolTip": "HydroTrack\\Views\\SettingsViews\\SettingsView.xaml*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T07:24:25.766Z",
+              "WhenOpened": "2025-07-13T16:25:32.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "INavigationService.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Services\\INavigationService.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Services\\INavigationService.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Services\\INavigationService.cs",
-              "RelativeToolTip": "HydroTrack\\Services\\INavigationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "HydroTrack\\Views\\StartViews\\MainView.xaml.cs",
+              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\MainView.xaml.cs",
+              "RelativeToolTip": "HydroTrack\\Views\\StartViews\\MainView.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:18:39.348Z",
+              "WhenOpened": "2025-07-13T16:24:37.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "NavigableViewModel.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\ViewModels\\Base\\NavigableViewModel.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\ViewModels\\Base\\NavigableViewModel.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\ViewModels\\Base\\NavigableViewModel.cs",
-              "RelativeToolTip": "HydroTrack\\ViewModels\\Base\\NavigableViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:16:51.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NavigationService.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Services\\NavigationService.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Services\\NavigationService.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Services\\NavigationService.cs",
-              "RelativeToolTip": "HydroTrack\\Services\\NavigationService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAEwDcAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:12:16.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\ViewModels\\HomeViewModels\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\ViewModels\\HomeViewModels\\HomeViewModel.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\ViewModels\\HomeViewModels\\HomeViewModel.cs",
-              "RelativeToolTip": "HydroTrack\\ViewModels\\HomeViewModels\\HomeViewModel.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:11:33.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\LoginView.xaml",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\StartViews\\LoginView.xaml",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\LoginView.xaml",
-              "RelativeToolTip": "HydroTrack\\Views\\StartViews\\LoginView.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwDEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T07:03:19.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 2,
               "Title": "MainView.xaml",
               "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\MainView.xaml",
               "RelativeDocumentMoniker": "HydroTrack\\Views\\StartViews\\MainView.xaml",
               "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\StartViews\\MainView.xaml",
               "RelativeToolTip": "HydroTrack\\Views\\StartViews\\MainView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAYwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T07:03:11.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ChangePasswordView.xaml.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\ChangePasswordView.xaml.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\SettingsViews\\ChangePasswordView.xaml.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\ChangePasswordView.xaml.cs",
-              "RelativeToolTip": "HydroTrack\\Views\\SettingsViews\\ChangePasswordView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:01:14.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ChangePasswordViewModel.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\ViewModels\\SettingsViewModels\\ChangePasswordViewModel.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\ViewModels\\SettingsViewModels\\ChangePasswordViewModel.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\ViewModels\\SettingsViewModels\\ChangePasswordViewModel.cs",
-              "RelativeToolTip": "HydroTrack\\ViewModels\\SettingsViewModels\\ChangePasswordViewModel.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:00:22.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SettingsViewModel.cs",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\ViewModels\\SettingsViewModels\\SettingsViewModel.cs",
-              "RelativeDocumentMoniker": "HydroTrack\\ViewModels\\SettingsViewModels\\SettingsViewModel.cs",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\ViewModels\\SettingsViewModels\\SettingsViewModel.cs",
-              "RelativeToolTip": "HydroTrack\\ViewModels\\SettingsViewModels\\SettingsViewModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:00:14.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ChangePasswordView.xaml",
-              "DocumentMoniker": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\ChangePasswordView.xaml",
-              "RelativeDocumentMoniker": "HydroTrack\\Views\\SettingsViews\\ChangePasswordView.xaml",
-              "ToolTip": "D:\\HydroTrack\\HydroTrack\\Views\\SettingsViews\\ChangePasswordView.xaml",
-              "RelativeToolTip": "HydroTrack\\Views\\SettingsViews\\ChangePasswordView.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-10T06:59:59.473Z"
+              "WhenOpened": "2025-07-13T16:23:22.412Z",
+              "EditorCaption": ""
             }
           ]
         }

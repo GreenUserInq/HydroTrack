@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using HydroTrack.Views.CoreViews;
 using HydroTrack.Views.HomeViews;
 using HydroTrack.Views.SettingsViews;
 using System.Diagnostics;
@@ -33,6 +34,7 @@ public partial class MainViewModel : ObservableObject
                 "Home" => _serviceProvider.GetService<HomeView>(),
                 "Settings" => _serviceProvider.GetService<SettingsView>(),
                 "Pass" => _serviceProvider.GetService<ChangePasswordView>(),
+                "Systems" => _serviceProvider.GetService<SystemsView>(),
                 _ => null
             };
         }

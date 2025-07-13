@@ -59,30 +59,48 @@
                      TranslationX="-200"
                      IsVisible="False"
                      ZIndex="1">
-            <VerticalStackLayout HorizontalOptions="StartAndExpand">
-                <Label Text="Меню" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
+            <Grid Padding="10" RowSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
 
-                <RadioButton x:Name="HomeRadioButton" 
-                             Content="Главная" Value="Home" GroupName="Menu"
-                             BackgroundColor="Transparent"
-                             HorizontalOptions="StartAndExpand"
-                             ControlTemplate="{StaticResource SidebarRadioTemplate}"
-                             CheckedChanged="OnMenuItemSelected" />
+                <!-- Верхняя часть меню -->
+                <VerticalStackLayout Grid.Row="0" Spacing="10" HorizontalOptions="StartAndExpand">
+                    <Label Text="Меню" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
 
-                <RadioButton x:Name="SettingsRadioButton" 
-                             Content="Настройки" Value="Settings" GroupName="Menu"
-                             BackgroundColor="Transparent"
-                             HorizontalOptions="StartAndExpand"
-                             ControlTemplate="{StaticResource SidebarRadioTemplate}"
-                             CheckedChanged="OnMenuItemSelected" />
+                    <RadioButton x:Name="HomeRadioButton" 
+                                 Content="Главная" Value="Home" GroupName="Menu"
+                                 BackgroundColor="Transparent"
+                                 HorizontalOptions="StartAndExpand"
+                                 ControlTemplate="{StaticResource SidebarRadioTemplate}"
+                                 CheckedChanged="OnMenuItemSelected" />
 
+                    <RadioButton x:Name="SettingsRadioButton" 
+                                 Content="Настройки" Value="Settings" GroupName="Menu"
+                                 BackgroundColor="Transparent"
+                                 HorizontalOptions="StartAndExpand"
+                                 ControlTemplate="{StaticResource SidebarRadioTemplate}"
+                                 CheckedChanged="OnMenuItemSelected" />
+
+                    <RadioButton x:Name="SystemsRadioButton" 
+                                 Content="Системы" Value="Systems" GroupName="Menu"
+                                 BackgroundColor="Transparent"
+                                 HorizontalOptions="StartAndExpand"
+                                 ControlTemplate="{StaticResource SidebarRadioTemplate}"
+                                 CheckedChanged="OnMenuItemSelected" />
+                </VerticalStackLayout>
+
+                <!-- Нижняя кнопка "Сменить пароль" -->
                 <RadioButton x:Name="PassRadioButton" 
                              Content="Сменить пароль" Value="Pass" GroupName="Menu"
                              BackgroundColor="Transparent"
                              HorizontalOptions="StartAndExpand"
                              ControlTemplate="{StaticResource SidebarRadioTemplate}"
-                             CheckedChanged="OnMenuItemSelected" />
-            </VerticalStackLayout>
+                             CheckedChanged="OnMenuItemSelected"
+                             Grid.Row="1"
+                             VerticalOptions="End" />
+            </Grid>
         </ContentView>
 
         <!-- Контент -->
@@ -91,4 +109,3 @@
                      Content="{Binding CurrentView}" />
     </Grid>
 </ContentPage>
-

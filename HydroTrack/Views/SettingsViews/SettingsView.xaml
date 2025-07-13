@@ -8,12 +8,7 @@
         <!-- Секция: Смена пароля -->
         <Grid HeightRequest="100" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
 
-            <!-- Кнопка на весь контейнер -->
-            <Button 
-                Style="{StaticResource FlatButtonStyle}"
-                BackgroundColor="Transparent"
-                Opacity="0.2"
-                Command="{Binding OpenChangePasswordCommand}" />
+
 
             <!-- Иконка + надпись поверх кнопки -->
             <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center"
@@ -28,17 +23,18 @@
                        VerticalTextAlignment="Center" />
             </HorizontalStackLayout>
 
+            <!-- Кнопка на весь контейнер -->
+            <Button Style="{StaticResource FlatButtonStyle}"
+                    BackgroundColor="Transparent"
+                    Opacity="0.2"
+                    Command="{Binding OpenChangePasswordCommand}" />
+
         </Grid>
 
         <!-- Секция: Параметры подключения -->
         <Grid HeightRequest="100" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
 
-            <!-- Кнопка на весь контейнер -->
-            <Button 
-                Style="{StaticResource FlatButtonStyle}"
-                BackgroundColor="Transparent"
-                Opacity="0.2"
-                Command="{Binding OpenConnectionSettingsCommand}" />
+
 
             <!-- Иконка + надпись поверх кнопки -->
             <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center"
@@ -52,6 +48,12 @@
                        FontAttributes="Bold"
                        VerticalTextAlignment="Center" />
             </HorizontalStackLayout>
+
+            <!-- Кнопка на весь контейнер -->
+            <Button Style="{StaticResource FlatButtonStyle}"
+                    BackgroundColor="Transparent"
+                    Opacity="0.2"
+                    Command="{Binding OpenConnectionSettingsCommand}" />
 
         </Grid>
 

@@ -9,7 +9,7 @@
     ".NETCoreApp,Version=v8.0/win10-x64": {
       "HydroTrack/1.0": {
         "dependencies": {
-          "CommunityToolkit.Maui": "8.0.0",
+          "CommunityToolkit.Maui": "8.0.1",
           "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Logging.Debug": "8.0.1",
           "Microsoft.Maui.Controls": "8.0.100",
@@ -32,9 +32,9 @@
           }
         }
       },
-      "CommunityToolkit.Maui/8.0.0": {
+      "CommunityToolkit.Maui/8.0.1": {
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "8.0.0",
+          "CommunityToolkit.Maui.Core": "8.0.1",
           "Microsoft.Maui.Controls": "8.0.100",
           "Microsoft.Maui.Controls.Compatibility": "8.0.100"
         },
@@ -45,7 +45,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/8.0.0": {
+      "CommunityToolkit.Maui.Core/8.0.1": {
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.100",
           "Microsoft.Maui.Essentials": "8.0.100",
@@ -502,19 +502,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommunityToolkit.Maui/8.0.0": {
+    "CommunityToolkit.Maui/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GO8x688KPm76UWLSqYElw510+GQF7zO9FU8RillE1hn0kySdBPUZNbwx1tWnBoJZSLJwxKUEONhHsMVIMsEXyw==",
-      "path": "communitytoolkit.maui/8.0.0",
-      "hashPath": "communitytoolkit.maui.8.0.0.nupkg.sha512"
+      "sha512": "sha512-eDzpn74Q+UlJVS8yKIIbTd0CmYZli+U3CzuurnQ3r6AQq/oBvAmHXkGyfp6nIsc4E11CD6esZZ46jofQqJPXsQ==",
+      "path": "communitytoolkit.maui/8.0.1",
+      "hashPath": "communitytoolkit.maui.8.0.1.nupkg.sha512"
     },
-    "CommunityToolkit.Maui.Core/8.0.0": {
+    "CommunityToolkit.Maui.Core/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pGMqh2cm82CDcEnzXqxjKOCIFRg28ilCPevm36eEBnZAjGmBG9lK0r7zf11aOFwMvIt44LNONAoQb+1jmjTQzg==",
-      "path": "communitytoolkit.maui.core/8.0.0",
-      "hashPath": "communitytoolkit.maui.core.8.0.0.nupkg.sha512"
+      "sha512": "sha512-PN1SqdiDgiqaKrRJyIjE4eDMbvxzHZ9d/CuPVRIzwfVepMRH6VdhErqiPTNXKrtANwyKUPpbQ+7FUoF6NmsSvw==",
+      "path": "communitytoolkit.maui.core/8.0.1",
+      "hashPath": "communitytoolkit.maui.core.8.0.1.nupkg.sha512"
     },
     "CommunityToolkit.Mvvm/8.4.0": {
       "type": "package",

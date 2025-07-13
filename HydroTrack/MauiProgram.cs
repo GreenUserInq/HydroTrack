@@ -1,5 +1,4 @@
-﻿using CommunityToolkit.Maui;
-using HydroTrack.Services;
+﻿using HydroTrack.Services;
 using HydroTrack.ViewModels;
 using HydroTrack.ViewModels.CoreViewModels;
 using HydroTrack.ViewModels.HomeViewModels;
@@ -53,7 +52,6 @@ namespace HydroTrack
             builder.Services.AddTransient<ConnectionSetingsViewModel>();
 
             builder.Services.AddSingleton<INavigationService, NavigationService>();
-            builder.UseMauiCommunityToolkit();
 
             return builder.Build();
         }
