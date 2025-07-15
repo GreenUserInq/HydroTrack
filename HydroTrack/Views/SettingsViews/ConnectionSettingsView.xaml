@@ -1,11 +1,73 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HydroTrack.Views.SettingsViews.ConnectionSettingsView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             x:Class="HydroTrack.Views.SettingsViews.ConnectionSettingsView"
+             BackgroundColor="Transparent"
+             Padding="20">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20">
+
+            <Label Text="Настройки подключения"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center" />
+
+            <!-- Broker Address -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Адрес брокера" FontSize="16" TextColor="Black" />
+                <Entry Placeholder="Введите адрес брокера"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="DarkGray" />
+            </VerticalStackLayout>
+
+            <!-- Port -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Порт" FontSize="16" TextColor="Black" />
+                <Entry Placeholder="Введите порт"
+                       Keyboard="Numeric"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="DarkGray" />
+            </VerticalStackLayout>
+
+            <!-- Username -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Имя пользователя" FontSize="16" TextColor="Black" />
+                <Entry Placeholder="Введите имя пользователя"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="DarkGray" />
+            </VerticalStackLayout>
+
+            <!-- Password -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Пароль" FontSize="16" TextColor="Black" />
+                <Entry Placeholder="Введите пароль"
+                       IsPassword="True"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="DarkGray" />
+            </VerticalStackLayout>
+
+            <!-- Client ID -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Client ID" FontSize="16" TextColor="Black" />
+                <Entry Placeholder="Введите Client ID"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="DarkGray" />
+            </VerticalStackLayout>
+
+            <!-- Save Button -->
+            <Button Text="Сохранить"
+                    Style="{StaticResource FlatButtonStyle}"
+                    HeightRequest="50"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    BackgroundColor="#dceeff" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentView>

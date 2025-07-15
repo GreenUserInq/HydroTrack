@@ -15,7 +15,7 @@ public partial class SplashView : ContentPage
         if (!animationRunning && Width > 0 && TrainImage.Width > 0)
         {
             animationRunning = true;
-            SizeChanged -= OnSizeChanged; // „тобы не запускать анимацию повторно
+            SizeChanged -= OnSizeChanged;
 
             await AnimateTrainLoop();
         }
@@ -46,8 +46,6 @@ public partial class SplashView : ContentPage
     protected override async void OnAppearing()
     {
         base.OnAppearing();
-
-        // «апуск анимации теперь происходит при SizeChanged
 
         var rnd = new Random();
         await Task.Delay(rnd.Next(2000, 4000));

@@ -1,4 +1,5 @@
-﻿using HydroTrack.Services;
+﻿using CommunityToolkit.Maui;
+using HydroTrack.Services;
 using HydroTrack.ViewModels;
 using HydroTrack.ViewModels.CoreViewModels;
 using HydroTrack.ViewModels.HomeViewModels;
@@ -16,8 +17,10 @@ namespace HydroTrack
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
+
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit() // 🟢 Добавить это здесь
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -25,8 +28,9 @@ namespace HydroTrack
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
+
             builder.Services.AddTransient<SplashView>();
 
             builder.Services.AddTransient<LoginView>();

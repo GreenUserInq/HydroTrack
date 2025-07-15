@@ -14,5 +14,7 @@ namespace HydroTrack.ViewModels.SettingsViewModels
             : base(navigationService)
         {
         }
+
+
     }
 }
