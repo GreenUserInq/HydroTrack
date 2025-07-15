@@ -27,7 +27,7 @@ public partial class SplashView : ContentPage
         double trainWidth = TrainImage.Width;
         double targetX = -trainWidth - 300;
 
-        string[] trainImages = { "traina.png", "trainc.png", "traind.png", "traine.png" };
+        string[] trainImages = { "trainc.png", "traind.png", "traine.png" };
         Random random = new Random();
 
         TrainImage.TranslationX = screenWidth;

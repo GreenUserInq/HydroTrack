@@ -9,7 +9,7 @@ public partial class HomeView : ContentView
 		InitializeComponent();
 		BindingContext = vm;
 
-        SetAnimationButton();
+       // SetAnimationButton();
 
         bool isDesktop = DeviceInfo.Current.Platform == DevicePlatform.WinUI ||
                  DeviceInfo.Current.Platform == DevicePlatform.MacCatalyst;
@@ -23,22 +23,22 @@ public partial class HomeView : ContentView
         }
     }
 
-    private void SetAnimationButton()
-    {
-        SettingsButton.Pressed += async (s, e) =>
-        {
-            await Task.WhenAll(
-                SettingsButton.ScaleTo(0.9, 100),
-                SettingsButton.RotateTo(50, 100)
-            );
-        };
+    //private void SetAnimationButton()
+    //{
+    //    SettingsButton.Pressed += async (s, e) =>
+    //    {
+    //        await Task.WhenAll(
+    //            SettingsButton.ScaleTo(0.9, 100),
+    //            SettingsButton.RotateTo(50, 100)
+    //        );
+    //    };
 
-        SettingsButton.Released += async (s, e) =>
-        {
-            await Task.WhenAll(
-                SettingsButton.ScaleTo(1, 100),
-                SettingsButton.RotateTo(0, 100)
-            );
-        };
-    }
+    //    SettingsButton.Released += async (s, e) =>
+    //    {
+    //        await Task.WhenAll(
+    //            SettingsButton.ScaleTo(1, 100),
+    //            SettingsButton.RotateTo(0, 100)
+    //        );
+    //    };
+    //}
 }

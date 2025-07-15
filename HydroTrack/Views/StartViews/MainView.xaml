@@ -2,8 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HydroTrack.Views.MainView"
-             NavigationPage.HasNavigationBar="False"
-             Background="#7bc7e3">
+             NavigationPage.HasNavigationBar="False">
 
     <ContentPage.Resources>
         <ControlTemplate x:Key="SidebarRadioTemplate">
@@ -41,7 +40,7 @@
         </Grid.ColumnDefinitions>
 
         <!-- Верхняя панель -->
-        <Grid Grid.Row="0" Grid.ColumnSpan="2" HeightRequest="50" BackgroundColor="#1F4F5F">
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" HeightRequest="50" BackgroundColor="#117A8B">
             <ImageButton Source="menubutton.png"
                          Background="Transparent"
                          HorizontalOptions="Start"
@@ -54,7 +53,7 @@
         <ContentView x:Name="Sidebar"
                      Grid.Row="1"
                      Grid.Column="0"
-                     BackgroundColor="#4AAEC3"
+                     BackgroundColor="#48C9B0"
                      WidthRequest="200"
                      TranslationX="-200"
                      IsVisible="False"
@@ -66,7 +65,7 @@
                 </Grid.RowDefinitions>
 
                 <!-- Верхняя часть меню -->
-                <VerticalStackLayout Grid.Row="0" Spacing="10" HorizontalOptions="StartAndExpand">
+                <VerticalStackLayout Grid.Row="0"  HorizontalOptions="StartAndExpand">
                     <Label Text="Меню" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
 
                     <RadioButton x:Name="HomeRadioButton" 

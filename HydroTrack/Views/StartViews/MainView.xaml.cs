@@ -1,5 +1,4 @@
 using HydroTrack.ViewModels;
-using Microsoft.Maui.Controls;
 using System.ComponentModel;
 using static Microsoft.Maui.Controls.AnimationExtensions;
 
@@ -16,6 +15,36 @@ public partial class MainView : ContentPage
         InitializeComponent();
         BindingContext = mainVM;
     }
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+
+        var startColor = Color.FromArgb("#7bc7e3"); // текущий фон
+        var endColor = Color.FromArgb("#EAF6F6");   // светло-зелёный / морской волны
+
+        await AnimateBackgroundColor(startColor, endColor);
+    }
+
+
+    private Task AnimateBackgroundColor(Color from, Color to, uint duration = 800)
+    {
+        TaskCompletionSource<bool> tcs = new TaskCompletionSource<bool>();
+
+        new Animation(v =>
+        {
+            BackgroundColor = new Color(
+                (float)(from.Red + (to.Red - from.Red) * v),
+                (float)(from.Green + (to.Green - from.Green) * v),
+                (float)(from.Blue + (to.Blue - from.Blue) * v),
+                (float)(from.Alpha + (to.Alpha - from.Alpha) * v));
+        }, 0, 1)
+        .Commit(this, "ColorAnimation", length: duration, easing: Easing.CubicInOut,
+            finished: (v, c) => tcs.SetResult(true));
+
+        return tcs.Task;
+    }
+
 
     private async void OnMenuButtonClicked(object sender, EventArgs e)
     {

@@ -5,58 +5,75 @@
 
     <VerticalStackLayout Padding="10" Spacing="20">
 
-        <!-- Секция: Смена пароля -->
-        <Grid HeightRequest="100" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+        <!-- Смена пароля -->
+        <Frame HeightRequest="100"
+               CornerRadius="10"
+               BackgroundColor="#5EEAD4"
+               HasShadow="False"
+               Padding="20"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center">
 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
 
-
-            <!-- Иконка + надпись поверх кнопки -->
-            <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center"
-                                   InputTransparent="True">
-                <Image Source="settingsicon.png"
-                       Aspect="AspectFit"
-                       WidthRequest="40"
-                       HeightRequest="40" />
                 <Label Text="Смена пароля"
                        FontSize="18"
                        FontAttributes="Bold"
-                       VerticalTextAlignment="Center" />
-            </HorizontalStackLayout>
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       Grid.Column="0" />
 
-            <!-- Кнопка на весь контейнер -->
-            <Button Style="{StaticResource FlatButtonStyle}"
-                    BackgroundColor="Transparent"
-                    Opacity="0.2"
-                    Command="{Binding OpenChangePasswordCommand}" />
-
-        </Grid>
-
-        <!-- Секция: Параметры подключения -->
-        <Grid HeightRequest="100" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
-
-
-
-            <!-- Иконка + надпись поверх кнопки -->
-            <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center"
-                                   InputTransparent="True">
                 <Image Source="settingsicon.png"
                        Aspect="AspectFit"
                        WidthRequest="40"
-                       HeightRequest="40" />
+                       HeightRequest="40"
+                       VerticalOptions="Center"
+                       Grid.Column="1" />
+            </Grid>
+
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding OpenChangePasswordCommand}" />
+            </Frame.GestureRecognizers>
+        </Frame>
+
+        <!-- Параметры подключения -->
+        <Frame HeightRequest="100"
+               CornerRadius="10"
+               BackgroundColor="#1ABC9C"
+               HasShadow="False"
+               Padding="20"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
                 <Label Text="Параметры подключения"
                        FontSize="18"
                        FontAttributes="Bold"
-                       VerticalTextAlignment="Center" />
-            </HorizontalStackLayout>
+                       VerticalOptions="Center"
+                       TextColor="White"
+                       Grid.Column="0" />
 
-            <!-- Кнопка на весь контейнер -->
-            <Button Style="{StaticResource FlatButtonStyle}"
-                    BackgroundColor="Transparent"
-                    Opacity="0.2"
-                    Command="{Binding OpenConnectionSettingsCommand}" />
+                <Image Source="settingsicon.png"
+                       Aspect="AspectFit"
+                       WidthRequest="40"
+                       HeightRequest="40"
+                       VerticalOptions="Center"
+                       Grid.Column="1" />
+            </Grid>
 
-        </Grid>
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding OpenConnectionSettingsCommand}" />
+            </Frame.GestureRecognizers>
+        </Frame>
 
     </VerticalStackLayout>
-
 </ContentView>

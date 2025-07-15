@@ -1,57 +1,100 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HydroTrack.Views.HomeViews.HomeView"
-             BackgroundColor="Transparent">
-
+             BackgroundColor="Transparent"
+             >
+    <ScrollView>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="50*"/>
-            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0">
+        <!-- Левая часть с кнопками -->
+        <Grid Grid.Column="0" Padding="10" RowSpacing="10" Margin="0,0,0,0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="50*"/>
-                <RowDefinition Height="50*"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <Grid Grid.Row="1" Margin="10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50*"/>
-                    <ColumnDefinition Width="50*"/>
-                </Grid.ColumnDefinitions>
-
-                <Frame Grid.Column="1"
-                   Padding="0"
+            <!-- Кнопка "Системы" -->
+            <Frame Grid.Row="0"
+                   BackgroundColor="#5EEAD4"
                    CornerRadius="20"
                    HasShadow="False"
-                   BackgroundColor="#5EEAD4">
+                   HorizontalOptions="Fill"
+                   VerticalOptions="Fill"
+                   Padding="0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Image Source="systemsicon.png"
+                           Aspect="AspectFit"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Grid.Row="0" />
+                    <Label Text="Системы"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Grid.Row="1"
+                           HorizontalTextAlignment="Center"
+                           Margin="0,10,0,10" />
+                </Grid>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding OpenSystemsCommand}" />
+                </Frame.GestureRecognizers>
+            </Frame>
 
-                    <ImageButton x:Name="SettingsButton"
-                                 Source="settingsicon.png"
-                                 BackgroundColor="Transparent"
-                                 Command="{Binding OpenSettingsCommand}" />
-                </Frame>
-            </Grid>
-
-            <Button Text="Системы" Grid.Row="0"
-                    Style="{StaticResource FlatButtonStyle}"
-                    Command="{Binding OpenSystemsCommand}"
-                    FontSize="40"
-                    Margin="10"
-                    CornerRadius="20"
-                    Background="#BDEF0F"/>
+            <!-- Кнопка "Настройки" -->
+            <Frame Grid.Row="1"
+                   BackgroundColor="#1ABC9C"
+                   CornerRadius="20"
+                   HasShadow="False"
+                   HorizontalOptions="Fill"
+                   VerticalOptions="Fill"
+                   Padding="0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Image Source="settingsicon.png"
+                           Aspect="AspectFit"
+                           HeightRequest="150"
+                           WidthRequest="150"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Grid.Row="0" />
+                    <Label Text="Настройки"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Grid.Row="1"
+                           HorizontalTextAlignment="Center"
+                           Margin="0,0,0,10" />
+                </Grid>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding OpenSettingsCommand}" />
+                </Frame.GestureRecognizers>
+            </Frame>        
         </Grid>
 
-        <Grid Grid.Column="1" x:Name="TimePanel">
-            <Frame Padding="0"
+        <!-- Правая часть — грид состояния -->
+        <Grid Grid.Column="1" x:Name="TimePanel" Padding="10">
+            <Frame Padding="10"
                    CornerRadius="20"
                    HasShadow="False"
                    BackgroundColor="#E6F8FC"
-                   Margin="10">
-            </Frame>
+                   HorizontalOptions="Fill"
+                   VerticalOptions="Fill" />
         </Grid>
-
     </Grid>
+    </ScrollView>
 </ContentView>

@@ -18,14 +18,14 @@
                 <VisualStateGroup Name="CommonStates">
                     <VisualState Name="Normal">
                         <VisualState.Setters>
-                            <Setter Property="BackgroundColor" Value="#04D2F4" />
+                            <Setter Property="BackgroundColor" Value="#5EEAD4" />
                             <Setter Property="Scale" Value="1" />
                         </VisualState.Setters>
                     </VisualState>
 
                     <VisualState Name="Pressed">
                         <VisualState.Setters>
-                            <Setter Property="BackgroundColor" Value="#1E40AF" />
+                            <Setter Property="BackgroundColor" Value="#117FA4" />
                             <Setter Property="Scale" Value="0.95" />
                         </VisualState.Setters>
                     </VisualState>
